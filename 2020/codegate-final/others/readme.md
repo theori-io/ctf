@@ -49,7 +49,7 @@ CODEGATE2020{I_w1sh_COVID_19_ends_s00oon}
 http://byronknoll.appspot.com/lcs.html
 
 # gaemgam
-`strings` is best hacking tool 2 !
+`strings` is the best hacking tool 2 !
 ```bash
 $ strings assets/www/data.js | grep CODEGATE
 CODEGATE2020{W3_ar3_playing_CTF_gam3}
