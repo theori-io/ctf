@@ -24,7 +24,7 @@ for i in make_string(3):
 ```
 
 # EniQma
-`strings` is best hacking tool !
+`strings` is the best hacking tool !
 
 ![eniqma.png](./eniqma.png)
 
