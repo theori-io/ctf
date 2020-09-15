@@ -7,3 +7,7 @@
 ## Codegate Final (5th) 😇
 
 [Write up](./2020/codegate-final/)
+
+## CyberOC Pre Qual(2nd) 🥈
+
+[Write up](./2020/cyberoc-pre/)
