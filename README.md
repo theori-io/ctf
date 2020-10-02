@@ -11,3 +11,7 @@
 ## CyberOC Pre Qual(2nd) 🥈
 
 [Write up](./2020/cyberoc-pre/)
+
+## CCE Pre Qual (1st) 👑
+
+[Write up](./2020/cce-pre/)
