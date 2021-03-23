@@ -1,3 +1,10 @@
+# 2021
+
+## LINE CTF (1st) 👑
+
+[LINE CTF 2021 Write Up - The Duck.pdf](./2021/linectf/LINE%20CTF%202021%20Write%20Up%20-%20The%20Duck.pdf)
+
+
 # 2020
 
 ## SSTF Hackers' playground (1st) 👑
@@ -8,7 +15,7 @@
 
 [Write up](./2020/codegate-final/)
 
-## CyberOC Pre Qual(2nd) 🥈
+## CyberOC Pre Qual (2nd) 🥈
 
 [Write up](./2020/cyberoc-pre/)
 
