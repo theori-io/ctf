@@ -6,7 +6,7 @@
 
 ## SSTF Hackers' playground (1st) 👑
 
-[SSTF CTF 2021 Write Up - The Duck.pdf](./2021/SSTF2021/SSTF%202021%20The%20Duck%20-%20Write%20Up.pdf)
+[SSTF CTF 2021 Write Up - The Duck.pdf](./2021/SSTF2021/SSTF%202021%20The%20Duck%20-%20Write%20Up%20-%20rev%201.pdf)
 
 # 2020
 
