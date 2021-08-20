@@ -4,6 +4,9 @@
 
 [LINE CTF 2021 Write Up - The Duck.pdf](./2021/linectf/LINE%20CTF%202021%20Write%20Up%20-%20The%20Duck.pdf)
 
+## SSTF Hackers' playground (1st) 👑
+
+[SSTF CTF 2021 Write Up - The Duck.pdf](./2021/SSTF2021/SSTF%202021%20The%20Duck%20-%20Write%20Up.pdf)
 
 # 2020
 
