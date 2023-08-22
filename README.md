@@ -1,4 +1,4 @@
-# 2022
+# 2023
 
 ## SSTF Hackers' playground (1st) 👑
 
