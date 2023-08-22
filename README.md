@@ -1,12 +1,18 @@
 # 2022
 
+## SSTF Hackers' playground (1st) 👑
+
+[SSTF CTF 2023 Write Up - The Duck.pdf](./2023/SSTF2023/SSTF%202023%20The%20Duck%20-%20Write%20Up.pdf)
+
+# 2022
+
 ## Paradigm CTF (1st) 👑
 
 [Paradigm CTF 2022 Write-up - HackMD](https://hackmd.io/@theori/r1gnaGNks)
 
 ## SSTF Hackers' playground (1st) 👑
 
-[SSTF CTF 2021 Write Up - The Duck.pdf](./2022/SSTF2022/SSTF%202022%20The%20Duck%20-%20Write%20Up%20-%20rev%201.pdf)
+[SSTF CTF 2022 Write Up - The Duck.pdf](./2022/SSTF2022/SSTF%202022%20The%20Duck%20-%20Write%20Up%20-%20rev%201.pdf)
 
 ## LINE CTF (2nd) 🥈
 
