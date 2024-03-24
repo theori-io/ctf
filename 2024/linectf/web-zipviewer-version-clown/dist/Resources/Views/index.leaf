@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="/static/zipviewer.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/zipviewer.css">
+
+  <title>Simple ZipViewer (Version-clown)</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="login">
+        <p>
+          Welcome
+          <br/>
+          <input type="text" name="username" id="username" placeholder="What is your name?" />
+          <input type="button" value="ENTER" onclick="Enter()"/>
+          <br/>
+        </p>
+    </div>
+  </div>
+</body>
+</html>
