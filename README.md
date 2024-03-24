@@ -1,3 +1,9 @@
+# 2024
+
+## LINE CTF (1st) 👑
+
+[LINE CTF 2024 Write Up](./2024/linectf/)
+
 # 2023
 
 ## SSTF Hackers' playground (1st) 👑
