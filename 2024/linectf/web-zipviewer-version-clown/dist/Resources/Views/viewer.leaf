@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="/static/zipviewer.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/zipviewer.css">
+
+  <title>Simple ZipViewer (Version-clown)</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="menu">
+        <p>
+          Welcome, <sapn id="user">#(userSession)</sapn>
+          <br/>
+          <input type="file" id="zipfile"/>
+          <input type="button" value="UPLOAD" onclick="ZipFileUpload()"/>
+          <input type="button" value="CLEAR" onclick="ClearSessionAndFiles()"/>
+          <br/>
+        </p>
+    </div>
+    <div class="list">
+    #if(count(fileList) == 0):
+      <p>Empty</p>
+    #else:
+      #for(file in fileList):
+        <p><a href="/download/#(file)" onclick="DownloadFile('#(file)')">#(file)</a></p>
+      #endfor
+    #endif
+    </div>
+    <br/>
+    <div class="discription">
+      In the operational environment, files are deleted at 5-minute intervals.
+    </div>
+  </div>
+</body>
+</html>

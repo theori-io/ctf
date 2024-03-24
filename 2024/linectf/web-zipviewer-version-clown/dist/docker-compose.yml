@@ -1,0 +1,12 @@
+version: '3.7'
+  
+services: 
+  zipviewer-version-clown:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-debug}
+    ports:
+      - '11001:11001'
+    restart: always
