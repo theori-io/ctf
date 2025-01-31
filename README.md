@@ -1,3 +1,9 @@
+# 2025
+
+## Remedy CTF (1st) 👑
+
+[Remedy CTF 2025 Write Up](./2025/remedyctf/)
+
 # 2024
 
 ## LINE CTF (1st) 👑
