@@ -1,5 +1,9 @@
 # 2025
 
+## Codegate 2025 Prequal (1st) 👑
+
+[Codegate 2025 Prequal Write up](./2025/codegate-prequal/%5bThe%20Duck%5d%20Codegate%202025%20Prequal%20Write%20up.pdf)
+
 ## Remedy CTF (1st) 👑
 
 [Remedy CTF 2025 Write Up](./2025/remedyctf/)
